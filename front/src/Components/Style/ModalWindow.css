@@ -1,0 +1,85 @@
+
+.modalPage{
+  background: #000;
+}
+.modalBody-styleTime{
+  display: flex;
+  justify-content: space-around;
+}
+.pmStyleTime ,.amStyleTime{
+  display: inline-block;
+  width: 30%;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.modalBody-color{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.modalBody-color .color{
+  border: 1px #000 solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 5px;
+}
+.modalBody-color .color:hover{
+  border: 1px solid #0d6efd;
+}
+.option-Timer{
+  width: 100%;
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+  font-family: Gemunu Libre , space-evenly;
+  color:#000;
+}
+.option-Timer p{
+  cursor: pointer;
+}
+.active-optionTimer{
+  font-weight:bold;
+  text-decoration:underline;
+}
+.Timer-box-inp{
+  width: 30%;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+
+}
+.Timer-box-inp p{
+  display: inline-block;
+}
+.Timer-box-inp input{
+  background-color: #000;
+  width: 60%;
+  color:#fff;
+  overflow-y:hidden;
+  padding: 5%;
+  border-radius: 5px;
+  border:1px solid #ffffff2e;
+}
+.Timer-box-inp input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.Timer-box-btn{
+  display: flex;
+  justify-content: center;
+}
+.Timer-box-btn button{
+  margin: 1% 3%;
+}
